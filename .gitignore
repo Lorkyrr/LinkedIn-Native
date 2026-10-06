@@ -1,0 +1,18 @@
+# Binários e artefatos de compilação
+build/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cobertura e relatórios
+*.out
+
+# Frontend e Node
+frontend/node_modules/
+frontend/dist/*
+!frontend/dist/.keep
+
+# IDEs
+.vscode/
+.idea/
