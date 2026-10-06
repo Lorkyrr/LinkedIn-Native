@@ -18,7 +18,7 @@ jobs:
     name: Backend Go (Lints, Testes e Cobertura)
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-go@v5
         with:
@@ -58,7 +58,7 @@ jobs:
     name: Frontend (NPM, Testes e Duplicação)
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-node@v4
         with:
@@ -84,7 +84,7 @@ jobs:
     name: Build GUI Desktop (Wails / Linux)
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-go@v5
         with:
